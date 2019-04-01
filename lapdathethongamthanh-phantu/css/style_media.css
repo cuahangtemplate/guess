@@ -1,0 +1,283 @@
+
+@media screen and (min-width: 0px) and (max-width: 767px){
+	/*commont*/
+	#top img{width: 35px;}
+	.center_m{text-align: center !important;}
+	.text{padding: 0px 10px;}
+	/*temp*/
+	/*[class*="col-"]{margin-top: 10px;}*/
+	.padding_min,.paddingright0,.paddingleft0{padding: 0px;}
+	.padding_min5{padding: 0px 5px;}
+	.padding_min10{padding: 0px 10px;}
+	.margin_min{margin-left: 0px;margin-right: 0px}
+	
+
+	.contain_form_send_ask{padding: 10px;}
+	.box_info_form,.box_info_giohang {width: 100%;padding: 0px;}
+	/*news*/
+	.item_news_other{width: 100%;}
+	/*lien he*/
+	.left_lienhe{width: 100%;}
+	.right_lienhe{width: 100%;}
+
+}
+
+/* REPONESIVE */
+@media screen and (min-width:1200px)
+{
+
+}
+
+@media screen and (max-width:1199px)
+{
+    .center{ padding:0px 10px; width:100%; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;}
+    #menu ul{display:none;}
+	#btn_menu_bootstrap{display:block !important;}
+	.contain_search{float:right;}
+	.left_footer {
+	    width: 100%;
+	    float: none;
+	    font-family: 'RR';
+	    font-size: 14px;
+	    color: #fff;
+	    text-align: center;
+	    margin-bottom: 15px;
+	}
+	.mid_footer {
+	    width: 100%;
+	    float: none;
+	    margin-left: 0px;
+	    margin-bottom: 15px;
+	    text-align: center;
+	}
+	.right_footer {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	}
+}
+
+@media screen and (max-width:991px)
+{
+    #logo-menu
+    {
+    	padding:0px 15px;
+    }
+    
+}
+
+@media screen and (max-width:767px)
+{
+    .contain_table_giohang{max-width:500px;overflow-x:scroll;}
+	.contain_table_giohang table{min-width: 500px !important;}
+	/*form*/
+	.notify_login{text-align: center;}
+	.left_body_form,.right_body_form{width: 100%;}
+	.table_form .my_cell{display: block;}
+	.table_form .my_cell_title{text-align: left;}
+
+	#gioithieu {
+	    padding: 20px 30px;
+	}
+	.img-duan {
+	     position: relative; 
+	     overflow: none; 
+	}
+	.name-duan {
+	    position: absolute;
+	    /* top: 44%; */
+	    bottom: 0px;
+	    left: 0px;
+	    padding-top: 0%;
+	    font-family: 'OpenSansRegular';
+	    font-size: 13px;
+	    text-transform: uppercase;
+	    color: #fff;
+	    height: auto;
+	    width: 100%;
+	    line-height: 40px;
+	    text-align: center;
+	    background: rgba(0,0,0,0.5);
+	}
+	.img-duan:hover .name-duan
+	{
+	    bottom: 0px;
+	    left: 0px;
+	    text-align: center;
+	}
+	#dichvu {
+	    padding: 30px 0px;
+	}
+	.right-tt {
+	    width: 100%;
+	    float: none;
+	    margin-bottom: 20px;
+	}
+	.left-video {
+	    width: 100%;
+	    float: none;
+	}
+	.img-tt {
+	    width: 130px;
+	    float: left;
+	    margin-right: 15px;
+	}
+	.ar-tintuc1 .img-tt {
+	    width: 130px;
+	    float: left;
+	    margin-right: 15px;
+	    margin-left: 0px;
+	}
+	.name-tt {
+	    font-size: 12px;
+	    margin-bottom: 5px;
+	}
+	.info-tt {
+	    padding-top: 0px;
+	}
+	.ar-tintuc1 .info-tt {
+	    padding-left: 0px;
+	}
+	.ar-tintuc1 {
+	    height: 175px;
+	    overflow: hidden;
+	    padding: 10px;
+	}
+	.ar-tintuc {
+	    height: 175px;
+	    overflow: hidden;
+	    padding: 10px;
+	}
+
+@media screen and (max-width:480px)
+{
+    .box-prod{
+        width: 100% !important;
+    }
+    .tablelienhe{display: block;}
+	.tablelienhe .my_row{display: block;}
+	.tablelienhe .my_row .my_cell{
+		display: block;
+		padding: 0px;
+		text-align: left;
+	}
+	.notify_check{padding: 0px;}
+	.tablelienhe .my_row .my_cell .input,
+	.tablelienhe .my_row .my_cell textarea
+	{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.title-gioithieu h3 {
+	    font-size: 17px;
+	}
+	#gioithieu {
+	     padding: 15px 10px; 
+	}
+	.main-gioithieu {
+	    font-size: 15px;
+	    text-transform: none; 
+	    line-height: 20px;
+	    text-align: justify;
+	}
+	.baogiathietke {
+	    width: auto;
+	    padding: 12px 10px;
+	}
+	.baogia {
+	    margin-top: 20px;
+	}
+	.title-duantieubieu h3 {
+	    font-size: 17px;
+	}
+	.name-duan {
+	    line-height: 25px;
+	    font-size: 12px;
+	    overflow: hidden;
+	    white-space: nowrap;
+	    text-overflow: ellipsis;
+
+	}
+	.title-gioithieu p {
+	    font-size: 11px;
+	}
+	.main-dichvu {
+	    margin-top: 20px;
+	}
+	.name-dichvu {
+	    font-size: 14px;
+	}
+	#tintuc {
+	    padding: 30px 0px;
+	}
+	#footer {
+	    padding: 20px 10px;
+	}
+	#e_dk {
+	    width: 215px;
+	}
+	.baogiathietke {
+	    font-size: 13.5px;
+	}
+	.title_main {
+	    font-size: 17px;
+	}
+	.name-baogiaxaydung {
+	    font-size: 12px;
+	}
+	.ar-baogiatietke {
+	     width: 100%; 
+	}
+	.des-dichvu {
+	    font-size: 12px;
+	    line-height: 23px;
+	}
+	.ar-dichvu {
+	    padding: 0px 20px;
+	    text-align: center;
+	    margin-bottom: 15px;
+	}
+	.box_news_img {
+	    width: 110px;
+	    margin-right: 10px;
+	}
+	.box_news_name {
+	     height: auto; 
+	     overflow: none; 
+	}
+	.box_news_name h3 {
+	    font-size: 14px;
+	    margin-bottom: 5px;
+	}
+	.box_news {
+	     padding: 0px; 
+	     padding: 10px 0px;
+	}
+	.box_news_mota {
+	    text-align: justify;
+	    line-height: 18px;
+	    margin-top: 5px;
+	    font-size: 13px;
+	}
+	.sub_main {
+	    margin: 20px 0px;
+	}
+	.img_detail {
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	}
+	.info_detail {
+	    width: 100%;
+	    float: none;
+	    padding-left: 0px;
+	    margin-top: 20px;
+	}
+	.item_tab {
+	    font-size: 14px;
+	}
+
+}
+@media screen and (max-width:350px){
+	.contain_search label{display:none;}
+}
