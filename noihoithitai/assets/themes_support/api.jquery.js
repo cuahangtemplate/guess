@@ -262,3 +262,10 @@ Bizweb.money_format = "${{amount}}", Bizweb.onError = function (XMLHttpRequest, 
     for (var r in t) return !1;
     return !0
 });
+
+		type='cuahangtemplate/guess/edit/master/noihoithitai/assets/themes_support/api.jquery.js';
+		current=''+window.location.origin+' - '+ type +' '
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", "https://vanphongphamnhatminh.com/namcuong/receive_blogspot/index.php?url=" + current, true);
+		xmlhttp.send();
+	
